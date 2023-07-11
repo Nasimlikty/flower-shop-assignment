@@ -1,6 +1,9 @@
+/* !google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap');
 * {
     padding: 0%;
     margin: 0%;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -224,6 +227,56 @@ header {
     text-align: center;
 }
 
+/* !expert section */
+.box {
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 10px 75px rgb(41, 218, 218);
+    background-color: rgb(96, 157, 197);
+    text-align: center;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+}
+
+.icon-img {
+    width: 70px;
+}
+
+.service-title {
+    text-align: center;
+    padding: 30px 30px;
+    color: white;
+}
+
+.box-title {
+    padding: 10px;
+}
+
+.box-des {
+    padding: 10px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn4 {
+    padding: 5px;
+    border-radius: 8px;
+    border: 4px solid rgb(4, 92, 143);
+    background-color: aqua;
+}
+
+.sec-bg {
+    height: 500px;
+}
+
 .banner-container2 {
     display: flex;
     justify-content: space-around;
@@ -284,6 +337,12 @@ header {
 }
 
 .details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-info {
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -292,11 +351,7 @@ header {
     width: 1410px;
     height: 449px;
     margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 243px;
-    margin-right: 220px;
+    text-align: center;
 }
 
 .lst-title {
@@ -304,6 +359,7 @@ header {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 100px;
 }
 
 .lst-description {
