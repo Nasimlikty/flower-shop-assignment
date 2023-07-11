@@ -1,0 +1,371 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.nav-container {
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.flower {
+    color: rgb(163, 47, 47);
+}
+
+.shop {
+    color: rgb(255, 217, 0);
+}
+
+.nav-info {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* !banner section */
+
+.banner-container {
+    height: 100vh;
+    background-color: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: center; */
+}
+
+.title {
+    font-weight: 800;
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    width: 634px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    border: 2px solid;
+}
+
+.banner-img {
+    height: 720px;
+}
+
+.bnr-logo {
+    width: 480px;
+    height: 87vh;
+    margin-top: 12px;
+}
+
+.features-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.features-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.all-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.box1 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #A7216226;
+    width: 464px;
+    height: 538px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 310px;
+    height: 428px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box2 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #0597A026;
+    width: 464px;
+    height: 538px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    width: 310px;
+    height: 428px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box3 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+    width: 464px;
+    height: 538px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img3 {
+    width: 310px;
+    height: 428px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.text-box1 {
+    color: #272727;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.text-box2 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.text-box3 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-right: 60px;
+}
+
+.optional-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.optional-box {
+    display: flex;
+    background-color: #2727270D;
+    width: 1410px;
+    height: 220px;
+    border-radius: 8px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.op-box1 {
+    text-align: center;
+}
+
+.op-box2 {
+    text-align: center;
+}
+
+.op-box3 {
+    text-align: center;
+}
+
+.banner-container2 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    gap: 180px;
+}
+
+.title2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+}
+
+.banner-info2 {
+    text-align: center;
+}
+
+.banner-description2 {
+    margin-top: 25px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-logo2 {
+    width: 318px;
+    height: 420px;
+}
+
+.btn2 {
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: 1px solid #eee;
+    color: white;
+}
+
+/*! insta section */
+.all-images {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.details-container {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 1410px;
+    height: 449px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 243px;
+    margin-right: 220px;
+}
+
+.lst-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.lst-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.inputs {
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 1px solid white;
+    width: 700px;
+    height: 50px;
+}
+
+.btn3 {
+    color: #FFF;
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+
+.footer-container {
+    background-color: #111010;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.primary {
+    color: #E55473;
+}
+
+.f-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.f-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.f-rights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
